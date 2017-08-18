@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 이미지 css확인 요망 */
+div.abb{
+	width:50%;
+	height:500px;
+}
+div.abb img{
+	margin-top:70px;
+	width:50%;
+	height:400px;
+}
+/*  */
+/* 테이블 css */
+
+/* 텍스트 정리 제일 큰 글씨 */
+div.f ul{
+	list-style:none;
+	font-size:18pt;
+	text-align:left;
+	width:50%;
+}
+/* div 영역 다시 공부하기 */
+div.aa{
+	width:50%
+}
+div.a{
+	float:left;
+	width:33%;
+}
+li{
+	list-style:none;
+}
+ li.e{
+	font-size:11pt;
+}
+li.ee{
+	font-size:14pt;
+}
+li.ab img{
+	width:40%;
+	height:400px;
+}
+
+
