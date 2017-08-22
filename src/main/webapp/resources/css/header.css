@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div.menu{
+	height: 50px;
+	width: 100%;
+	background-color: black;
+}
+.menu ul{
+	list-style: none;/* ul태그 안 li태그의 점 제거 */
+	font-size: 18px;
+}
+.menu li{
+	float: left;/* 수평방향으로 css지정 */
+}
+.menu li.right{
+	float: right;/* 수평방향으로 css지정 */
+	margin-right: 30px;
+}
+.menu li a {
+    display: block;/*하나의 block만큼 영역이 됨*/
+	color: white;/* ul태그 안에 있는 글자 색 지정 */
+    text-align: center;
+    padding: 14px; /*block 안의 글자를 padding 준 만큼 공간*/
+    text-decoration: none;/* 밑줄 제거 */
+}
+.menu li a:hover {/* 마우스를 올려놓으면 색이 지정된 색으로 변경됨 */
+    background-color: #494848;
+}

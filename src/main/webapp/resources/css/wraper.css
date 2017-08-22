@@ -1,0 +1,34 @@
+@charset "UTF-8";
+div.init{
+	height: 250px;
+	width: 100%;
+	background-color: #d8d8d8;
+}
+div.init p{
+	font-size: 50pt;
+	text-align: center;
+}
+div.wraper2{
+	width: 900px;
+	height: 100%;
+	margin: 0 auto;
+}
+div.wraper2 img{
+	width: 350px;
+	height :500px;
+	margin-left: 100px;
+	float: left;
+}
+div.wraper2 .c1 img{
+	width: 350px;
+	height :250px;
+	margin-left: 100px;
+	float: left;/* 정렬을 왼쪽에 붙어서하면 다른 img를 넣어도 바로 적용이가능함 */
+	margin: 0 auto;/* img분활에 margin- auto면 div영역의 img가 공간없이 붙음 */
+}
+div.wraper2 p{
+	font-size: 30pt;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}

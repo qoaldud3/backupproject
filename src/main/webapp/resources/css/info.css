@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+div.restaurantmenu{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+}
+.restaurantmenu ul{
+	font-size: 18px;
+	width: 80%;
+}
+.restaurantmenu li{
+	float: left;/* 수평방향으로 css지정 */
+}
+.restaurantmenu li a {
+    display: block;/*하나의 block만큼 영역이 됨*/
+	color: black;/* ul태그 안에 있는 글자 색 지정 */
+    text-align: center;
+    padding: 14px; /*block 안의 글자를 padding 준 만큼 공간*/
+}
+.restaurantmenu li a:hover {/* 마우스를 올려놓으면 색이 지정된 색으로 변경됨 */
+    background-color: #e5e5e5;
+}
+/*contents start*/
+div.info{
+	width:80%;
+	height: 700px; 
+	margin: 0 auto;
+}
+.info div.left{
+	float: left;
+	width: 70%;
+	height: 700px;
+	background-color: gray;
+}
+.info div.right{
+	float: right;
+	width: 30%;
+	background-color: green;
+	height: 700px;
+}

@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+div.restaurantmenu{
+	height: 50px;
+	width: 100%;
+	background-color: white;
+}
+.restaurantmenu ul{
+	list-style: none;/* ul태그 안 li태그의 점 제거 */
+	font-size: 18px;
+	width: 80%;
+}
+.restaurantmenu li{
+	float: left;/* 수평방향으로 css지정 */
+}
+.restaurantmenu li.right{
+	float: right;/* 수평방향으로 css지정 */
+}
+.restaurantmenu li a {
+    display: block;/*하나의 block만큼 영역이 됨*/
+	color: black;/* ul태그 안에 있는 글자 색 지정 */
+    text-align: center;
+    padding: 14px; /*block 안의 글자를 padding 준 만큼 공간*/
+    text-decoration: none;/* 밑줄 제거 */
+}
+.restaurantmenu li a:hover {/* 마우스를 올려놓으면 색이 지정된 색으로 변경됨 */
+    background-color: #e5e5e5;
+}
+/*여기까지 바머리글*/
+/*여기부터 메인 이미지랑 div영역 확인*/
+.restaurantmenu2{
+	width: 100%;
+	height: 400px;
+	background-color: #c4c4c4;
+}
+.restaurantmenu2 div.menu2{
+	height: 400px;
+	width: 70%;
+	margin: 0 auto;
+}
+div.menu2 h2{
+	text-align: left;
+}
+div.menu2 table{
+	width: 100%;
+	height: 320px;
+	margin: 0 auto;
+}
+
+div.menu2 table img{
+	height: 320px;
+	width: 300px;
+}
+/*menu3 css*/
+div.restaurantmenu3{
+	height: 50px;
+	width: 70%;
+	background-color: white;
+	margin: 0 auto;
+}
+.restaurantmenu3 ul{
+	list-style: none;/* ul태그 안 li태그의 점 제거 */
+	font-size: 18px;
+}
+.restaurantmenu3 li{
+	float: left;/* 수평방향으로 css지정 */
+}
+.restaurantmenu3 li a {
+    display: block;/*하나의 block만큼 영역이 됨*/
+	color: black;/* ul태그 안에 있는 글자 색 지정 */
+    text-align: center;
+    padding: 14px; /*block 안의 글자를 padding 준 만큼 공간*/
+    text-decoration: none;/* 밑줄 제거 */
+}
+.restaurantmenu3 li a:hover {/* 마우스를 올려놓으면 색이 지정된 색으로 변경됨 */
+    background-color: #e5e5e5;
+}
+div.restaurantmenu4{
+	width: 70%;
+	height:auto;
+	margin: 0 auto;
+}
+
+.restaurantmenu4 table{
+	width: 80%;
+	height:  800px;
+	margin: 0 auto;
+	/* border: 2px solid; */
+}
+.restaurantmenu4 td{
+	width: 400px;
+	height: 200px;
+}
+.restaurantmenu4 img{
+	width: 400px;
+	height: 200px;
+}
+td.right2{
+	width: 200px;
+	background-color: #acd598;
+}
+.restaurantmenu4 td.left{
+	float: left;
+	margin-top: 80px;
+}
+/* 사이드바 */
+ div.right {
+ 	width: 180px;
+ 	height: 500px;
+ 	margin: 0 auto;
+ }
+div.right p{
+	font-size: 13pt;
+}
+ div.box{
+	width: 180px;
+	height: 180px;
+	border: 1px dotted;
+	margin: 0 auto;
+}
